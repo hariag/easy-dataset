@@ -6,6 +6,12 @@ export const MODEL_PROVIDERS = [
     defaultModels: []
   },
   {
+    id: 'aistack',
+    name: 'AIStack',
+    defaultEndpoint: 'http://cloud.fanttec.com:14000/node-bridge/v1/',
+    defaultModels: ['deepseek-r1-8b', 'deepseek-r1-14b', 'deepseek-r1-32b', 'deepseek-r1-70b', 'qwq', 'qwen2.5-32b']
+  },
+  {
     id: 'openai',
     name: 'OpenAI',
     defaultEndpoint: 'https://api.openai.com/v1/',
